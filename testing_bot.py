@@ -1,0 +1,7 @@
+def reply(input_sentence):
+    category = dtclassifier.classify(word_feats(extract_feature(input_sentence)))
+    return answers[category]
+    reply('Hi')
+  reply('How many leaves have I taken?')
+reply('How many annual leaves do I have left?')
+reply('Thanks!')
